@@ -1,0 +1,61 @@
+body {
+    background-color: #001427;
+    color: #E1E2D3;
+    font-family: 'Chango', serif;
+    font-size: 1rem;
+    overflow: hidden;
+}
+
+.title {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.title > span {
+    display: inline-block;
+}
+
+.score_container {
+    position: absolute;
+    top: 120px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.hand_container {
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.play_button_container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hand:nth-child(2) {
+    transform: scaleX(-1);
+}
+
+.hand_container.shuffle .hand img {
+    animation: 500ms shuffle;
+    animation-iteration-count: 3;
+    animation-timing-function: step-end;
+}
+
+@keyframes shuffle {
+    50% { transform: rotate(-60deg) translate(40px, -130px); }
+    0%, 100% { transform: rotate(0deg) translate(0px, 0px); }
+}
+  
