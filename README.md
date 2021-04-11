@@ -19,12 +19,9 @@ Tu remarqueras donc que le jeu le fonctionne pas en l'état en cliquant sur le b
 - Ajouter le code manquant (à plusieurs endroits) pour que le jeu fonctionne
 - Corriger les erreurs de code et de logique laissé par le développeur en charge du projet
 
-## Notation
+## Corrigé
 
-La note maximale est de 20 points :
-- 10 Points sur l'écriture, la logique et la propreté du code
-- 10 Points max sur la finalisation du projet
-- 2 Points bonus sur l'ajout d'un bouton qui permet de réinitialiser les scores à 0 (il faudra modifier le code HTML pour ajouter un bouton)
+Le corrigé est disponible sous le tag `correction`
 
 ## Remarques
 
